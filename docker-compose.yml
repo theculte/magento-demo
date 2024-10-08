@@ -18,7 +18,19 @@ services:
             MYSQL_USER: thierry
             MYSQL_PASSWORD: thierry123
             MYSQL_DATABASE: magento_demo
-
+    phpmyadmin:
+        image: phpmyadmin
+        restart: always
+        ports:
+            - 8080:80
+        environment:
+            - PMA_HOST=mysql
+            - PMA_PORT=3306
+            - PMA_ARBITRARY=1
+        links:
+            - mysql
+        volumes:
+            - /sessions
     # Defining our Elasticsearch container
     # "elasticsearch" will be the network alias for this container.
     elasticsearch:
