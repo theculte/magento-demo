@@ -25,20 +25,20 @@ class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
 
     public function getData()
     {
-        if (isset($this->loadedData)) {
-            return $this->loadedData;
+        if (isset($this->data)) {
+            return $this->data;
         }
 
         $items = $this->collection->getItems();
-        $this->loadedData = array();
+        $this->data = array();
         /** @var Contact $contact */
         foreach ($items as $contact) {
             // notre fieldset s'apelle "contact" d'ou ce tableau pour que magento puisse retrouver ses datas :
-            $this->loadedData[$contact->getId()]['contact'] = $contact->getData();
+            $this->data[$contact->getId()]['contact'] = $contact->getData();
         }
 
 
-        return $this->loadedData;
+        return $this->data;
 
     }
 }
