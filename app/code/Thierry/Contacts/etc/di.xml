@@ -32,4 +32,9 @@
         </arguments>
     </virtualType>
 
+    <preference for="Magento\Catalog\Model\Product" type="Thierry\Contacts\Model\Product" />
+    <preference for="Magento\Catalog\Block\Product\View" type="Thierry\Contacts\Block\Product\View" />
+    <preference for="Magento\Catalog\Helper\Data" type="Thierry\Contacts\Helper\Data" />
+    <preference for="Magento\Checkout\Controller\Cart\Index" type="Thierry\Contacts\Controller\Cart\Index" />
+
 </config>
