@@ -16,7 +16,7 @@
                 <item name="name" xsi:type="string">add</item>
                 <item name="label" xsi:type="string" translate="true">Add a new Contact</item>
                 <item name="class" xsi:type="string">primary</item>
-                <item name="url" xsi:type="string">*/*/add</item>
+                <item name="url" xsi:type="string">*/*/newAction</item>
             </item>
         </item>
     </argument>
@@ -210,10 +210,10 @@
     <massaction name="listing_massaction">
         <argument name="data" xsi:type="array">
             <item name="config" xsi:type="array">
-                <!-- we put here the path to the element pfay_contact_ids of contacts_test_columns  element -->
+                <!-- we put here the path to the element thierry_contact_ids of contacts_test_columns  element -->
                 <item name="selectProvider" xsi:type="string">contacts_test_listing.contacts_test_listing.contacts_test_columns.ids</item>
                 <item name="displayArea" xsi:type="string">bottom</item>
-                <item name="indexField" xsi:type="string">pfay_contacts_id</item>
+                <item name="indexField" xsi:type="string">thierry_contacts_id</item>
             </item>
         </argument>
         <action name="delete">
