@@ -3,9 +3,6 @@ namespace Thierry\Contacts\Block\Adminhtml\Contact\Edit;
 
 use Magento\Search\Controller\RegistryConstants;
 
-/**
- * Class GenericButton
- */
 class GenericButton
 {
     /**

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6df03c00cf44684df812643b6476fe99",
+    "content-hash": "603c2ff84eae913bf153e7e533398108",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -182,16 +182,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.323.1",
+            "version": "3.323.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "1b393c41a73e1ef4c493c60c5eee0bb4b0632264"
+                "reference": "e66ee025b1d169fad3c784934f56648d3eec11ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/1b393c41a73e1ef4c493c60c5eee0bb4b0632264",
-                "reference": "1b393c41a73e1ef4c493c60c5eee0bb4b0632264",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e66ee025b1d169fad3c784934f56648d3eec11ae",
+                "reference": "e66ee025b1d169fad3c784934f56648d3eec11ae",
                 "shasum": ""
             },
             "require": {
@@ -274,9 +274,9 @@
             "support": {
                 "forum": "https://forums.aws.amazon.com/forum.jspa?forumID=80",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.323.1"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.323.4"
             },
-            "time": "2024-10-04T18:07:17+00:00"
+            "time": "2024-10-09T18:10:22+00:00"
         },
         {
             "name": "bacon/bacon-qr-code",
@@ -2775,16 +2775,16 @@
         },
         {
             "name": "laminas/laminas-feed",
-            "version": "2.22.0",
+            "version": "2.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-feed.git",
-                "reference": "669792b819fca7274698147ad7a2ecc1b0a9b141"
+                "reference": "23807e692b3174750b426143bd93572b71b6739a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-feed/zipball/669792b819fca7274698147ad7a2ecc1b0a9b141",
-                "reference": "669792b819fca7274698147ad7a2ecc1b0a9b141",
+                "url": "https://api.github.com/repos/laminas/laminas-feed/zipball/23807e692b3174750b426143bd93572b71b6739a",
+                "reference": "23807e692b3174750b426143bd93572b71b6739a",
                 "shasum": ""
             },
             "require": {
@@ -2792,24 +2792,24 @@
                 "ext-libxml": "*",
                 "laminas/laminas-escaper": "^2.9",
                 "laminas/laminas-stdlib": "^3.6",
-                "php": "~8.1.0 || ~8.2.0 || ~8.3.0"
+                "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0"
             },
             "conflict": {
                 "laminas/laminas-servicemanager": "<3.3",
                 "zendframework/zend-feed": "*"
             },
             "require-dev": {
-                "laminas/laminas-cache": "^2.13.2 || ^3.11",
-                "laminas/laminas-cache-storage-adapter-memory": "^1.1.0 || ^2.2",
+                "laminas/laminas-cache": "^2.13.2 || ^3.12",
+                "laminas/laminas-cache-storage-adapter-memory": "^1.1.0 || ^2.3",
                 "laminas/laminas-coding-standard": "~2.5.0",
                 "laminas/laminas-db": "^2.18",
-                "laminas/laminas-http": "^2.18",
-                "laminas/laminas-servicemanager": "^3.21.0",
-                "laminas/laminas-validator": "^2.38",
-                "phpunit/phpunit": "^10.3.1",
-                "psalm/plugin-phpunit": "^0.18.4",
+                "laminas/laminas-http": "^2.19",
+                "laminas/laminas-servicemanager": "^3.22.1",
+                "laminas/laminas-validator": "^2.46",
+                "phpunit/phpunit": "^10.5.5",
+                "psalm/plugin-phpunit": "^0.19.0",
                 "psr/http-message": "^2.0",
-                "vimeo/psalm": "^5.14.1"
+                "vimeo/psalm": "^5.18.0"
             },
             "suggest": {
                 "laminas/laminas-cache": "Laminas\\Cache component, for optionally caching feeds between requests",
@@ -2851,7 +2851,7 @@
                     "type": "community_bridge"
                 }
             ],
-            "time": "2023-10-11T20:16:37+00:00"
+            "time": "2024-10-09T10:53:30+00:00"
         },
         {
             "name": "laminas/laminas-file",
@@ -4817,11 +4817,11 @@
         },
         {
             "name": "magento/adobe-stock-integration",
-            "version": "2.1.6-p2",
+            "version": "2.1.6-p3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/adobe-stock-integration/magento-adobe-stock-integration-2.1.6.0-patch2.zip",
-                "shasum": "a658d94212de0ab1ca23ff8424ebaa0c2b9c6633"
+                "url": "https://repo.magento.com/archives/magento/adobe-stock-integration/magento-adobe-stock-integration-2.1.6.0-patch3.zip",
+                "shasum": "2e7863ec421b91d7ccafdba2342e72b0de6f9205"
             },
             "require": {
                 "magento/module-adobe-stock-admin-ui": "1.3.4",
@@ -8733,11 +8733,11 @@
         },
         {
             "name": "magento/module-data-exporter",
-            "version": "103.3.13",
+            "version": "103.3.14",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-data-exporter/magento-module-data-exporter-103.3.13.0.zip",
-                "shasum": "fc9be1cadbde824605ce9259380c5606ba8e2a9e"
+                "url": "https://repo.magento.com/archives/magento/module-data-exporter/magento-module-data-exporter-103.3.14.0.zip",
+                "shasum": "a921a376ef3810ef401319e71c4a0a4b15203504"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -14780,11 +14780,11 @@
         },
         {
             "name": "magento/module-query-xml",
-            "version": "103.3.13",
+            "version": "103.3.14",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-query-xml/magento-module-query-xml-103.3.13.0.zip",
-                "shasum": "696e89b7bb61f43bc2794387e0741a1636bb702a"
+                "url": "https://repo.magento.com/archives/magento/module-query-xml/magento-module-query-xml-103.3.14.0.zip",
+                "shasum": "89357121f78c8486b2620dfdfcef657847c8da87"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -16103,11 +16103,11 @@
         },
         {
             "name": "magento/module-saas-common",
-            "version": "103.3.13",
+            "version": "103.3.14",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/magento/module-saas-common/magento-module-saas-common-103.3.13.0.zip",
-                "shasum": "9c81ae5444c14680f59e049fcf06191413db4d88"
+                "url": "https://repo.magento.com/archives/magento/module-saas-common/magento-module-saas-common-103.3.14.0.zip",
+                "shasum": "46dd24d119507d6eadd857ac11a19055c197ddd4"
             },
             "require": {
                 "magento/framework": ">=103.0.4",
@@ -19321,16 +19321,16 @@
         },
         {
             "name": "nikic/php-parser",
-            "version": "v5.3.0",
+            "version": "v5.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "3abf7425cd284141dc5d8d14a9ee444de3345d1a"
+                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/3abf7425cd284141dc5d8d14a9ee444de3345d1a",
-                "reference": "3abf7425cd284141dc5d8d14a9ee444de3345d1a",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8eea230464783aa9671db8eea6f8c6ac5285794b",
+                "reference": "8eea230464783aa9671db8eea6f8c6ac5285794b",
                 "shasum": ""
             },
             "require": {
@@ -19373,9 +19373,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nikic/PHP-Parser/issues",
-                "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.0"
+                "source": "https://github.com/nikic/PHP-Parser/tree/v5.3.1"
             },
-            "time": "2024-09-29T13:56:26+00:00"
+            "time": "2024-10-08T18:51:32+00:00"
         },
         {
             "name": "opensearch-project/opensearch-php",
@@ -19655,20 +19655,20 @@
         },
         {
             "name": "paypal/module-braintree",
-            "version": "4.6.1-p1",
+            "version": "4.6.1-p3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree/paypal-module-braintree-4.6.1.0-patch1.zip",
-                "shasum": "51f1a1408818d258fb256e4d0f478fc25ae9e806"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree/paypal-module-braintree-4.6.1.0-patch3.zip",
+                "shasum": "864561fdf376966f6f52151b7a680954d5c67978"
             },
             "require": {
                 "braintree/braintree_php": "6.13.0",
                 "magento/framework": "*",
-                "paypal/module-braintree-core": "4.6.1-p1",
-                "paypal/module-braintree-customer-balance": "4.6.1-p1",
-                "paypal/module-braintree-gift-card-account": "4.6.1-p1",
-                "paypal/module-braintree-gift-wrapping": "4.6.1-p1",
-                "paypal/module-braintree-graph-ql": "4.6.1-p1",
+                "paypal/module-braintree-core": "4.6.1-p3",
+                "paypal/module-braintree-customer-balance": "4.6.1-p3",
+                "paypal/module-braintree-gift-card-account": "4.6.1-p3",
+                "paypal/module-braintree-gift-wrapping": "4.6.1-p3",
+                "paypal/module-braintree-graph-ql": "4.6.1-p3",
                 "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "require-dev": {
@@ -19682,11 +19682,11 @@
         },
         {
             "name": "paypal/module-braintree-core",
-            "version": "4.6.1-p1",
+            "version": "4.6.1-p3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-core/paypal-module-braintree-core-4.6.1.0-patch1.zip",
-                "shasum": "c87e100fc0cfe94daf7f48a6425f85dd3dda576f"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-core/paypal-module-braintree-core-4.6.1.0-patch3.zip",
+                "shasum": "103e37facd2b6f7c4e0cb88ab1fc0b3ed978f626"
             },
             "require": {
                 "braintree/braintree_php": "6.13.0",
@@ -19750,17 +19750,17 @@
         },
         {
             "name": "paypal/module-braintree-customer-balance",
-            "version": "4.6.1-p1",
+            "version": "4.6.1-p3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-customer-balance/paypal-module-braintree-customer-balance-4.6.1.0-patch1.zip",
-                "shasum": "b73cb89afac4295b168ab790b60b42d70cafd4d0"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-customer-balance/paypal-module-braintree-customer-balance-4.6.1.0-patch3.zip",
+                "shasum": "9468afa476d564050d84da27c0596e32723fdbcc"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-quote": "101.0.*||101.1.*||^101.2.0",
                 "magento/module-sales": "101.0.*||102.0.*||^102.1.0||^103",
-                "paypal/module-braintree-core": "4.6.1-p1",
+                "paypal/module-braintree-core": "4.6.1-p3",
                 "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
@@ -19783,17 +19783,17 @@
         },
         {
             "name": "paypal/module-braintree-gift-card-account",
-            "version": "4.6.1-p1",
+            "version": "4.6.1-p3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-gift-card-account/paypal-module-braintree-gift-card-account-4.6.1.0-patch1.zip",
-                "shasum": "f09c96a8ee5aafb5c528ea22e3fbd46879c9b97d"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-gift-card-account/paypal-module-braintree-gift-card-account-4.6.1.0-patch3.zip",
+                "shasum": "2ec37b1848d3c7eb927f047d55879cda3a0e6463"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-quote": "101.0.*||101.1.*||^101.2.0",
                 "magento/module-sales": "101.0.*||102.0.*||^102.1.0||^103",
-                "paypal/module-braintree-core": "4.6.1-p1",
+                "paypal/module-braintree-core": "4.6.1-p3",
                 "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
@@ -19816,17 +19816,17 @@
         },
         {
             "name": "paypal/module-braintree-gift-wrapping",
-            "version": "4.6.1-p1",
+            "version": "4.6.1-p3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-gift-wrapping/paypal-module-braintree-gift-wrapping-4.6.1.0-patch1.zip",
-                "shasum": "13813676bc971e76192b3c09e6356d59342a769c"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-gift-wrapping/paypal-module-braintree-gift-wrapping-4.6.1.0-patch3.zip",
+                "shasum": "8d28e5bb10937372d758f53dd9baecc30dcf5a09"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-quote": "101.0.*||101.1.*||^101.2.0",
                 "magento/module-sales": "101.0.*||102.0.*||^102.1.0||^103",
-                "paypal/module-braintree-core": "4.6.1-p1",
+                "paypal/module-braintree-core": "4.6.1-p3",
                 "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "suggest": {
@@ -19849,18 +19849,18 @@
         },
         {
             "name": "paypal/module-braintree-graph-ql",
-            "version": "4.6.1-p1",
+            "version": "4.6.1-p3",
             "dist": {
                 "type": "zip",
-                "url": "https://repo.magento.com/archives/paypal/module-braintree-graph-ql/paypal-module-braintree-graph-ql-4.6.1.0-patch1.zip",
-                "shasum": "88a949ea8ac3ca235703ae800f21243c6ff1461a"
+                "url": "https://repo.magento.com/archives/paypal/module-braintree-graph-ql/paypal-module-braintree-graph-ql-4.6.1.0-patch3.zip",
+                "shasum": "3793044c9ba6ebe9e1ab50bee9e9df1306e73832"
             },
             "require": {
                 "magento/framework": "*",
                 "magento/module-quote": "^101",
                 "magento/module-quote-graph-ql": "^100",
                 "magento/module-store": "^101",
-                "paypal/module-braintree-core": "4.6.1-p1",
+                "paypal/module-braintree-core": "4.6.1-p3",
                 "php": "~8.1.0||~8.2.0||~8.3.0"
             },
             "require-dev": {
@@ -24400,16 +24400,16 @@
         },
         {
             "name": "webonyx/graphql-php",
-            "version": "v15.14.1",
+            "version": "v15.14.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/webonyx/graphql-php.git",
-                "reference": "73542661e3aeaba6b2c60481e82d6b9ea4196908"
+                "reference": "3bc2778fa16a8a127767240ca91ef51236cb0f58"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/73542661e3aeaba6b2c60481e82d6b9ea4196908",
-                "reference": "73542661e3aeaba6b2c60481e82d6b9ea4196908",
+                "url": "https://api.github.com/repos/webonyx/graphql-php/zipball/3bc2778fa16a8a127767240ca91ef51236cb0f58",
+                "reference": "3bc2778fa16a8a127767240ca91ef51236cb0f58",
                 "shasum": ""
             },
             "require": {
@@ -24427,10 +24427,10 @@
                 "nyholm/psr7": "^1.5",
                 "phpbench/phpbench": "^1.2",
                 "phpstan/extension-installer": "^1.1",
-                "phpstan/phpstan": "1.12.3",
+                "phpstan/phpstan": "1.12.6",
                 "phpstan/phpstan-phpunit": "1.4.0",
-                "phpstan/phpstan-strict-rules": "1.6.0",
-                "phpunit/phpunit": "^9.5 || ^10.5.21",
+                "phpstan/phpstan-strict-rules": "1.6.1",
+                "phpunit/phpunit": "^9.5 || ^10.5.21 || ^11",
                 "psr/http-message": "^1 || ^2",
                 "react/http": "^1.6",
                 "react/promise": "^2.0 || ^3.0",
@@ -24462,7 +24462,7 @@
             ],
             "support": {
                 "issues": "https://github.com/webonyx/graphql-php/issues",
-                "source": "https://github.com/webonyx/graphql-php/tree/v15.14.1"
+                "source": "https://github.com/webonyx/graphql-php/tree/v15.14.2"
             },
             "funding": [
                 {
@@ -24470,7 +24470,7 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2024-09-26T08:18:11+00:00"
+            "time": "2024-10-08T08:43:03+00:00"
         },
         {
             "name": "wikimedia/less.php",
@@ -26096,16 +26096,16 @@
         },
         {
             "name": "magento/magento-coding-standard",
-            "version": "34",
+            "version": "35",
             "source": {
                 "type": "git",
                 "url": "https://github.com/magento/magento-coding-standard.git",
-                "reference": "e0f31fa473868b5db8c00994efb99e6efbb6c840"
+                "reference": "f5cf74fb1cdd7e9fc16b2b0a31c5a5336539505e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/magento/magento-coding-standard/zipball/e0f31fa473868b5db8c00994efb99e6efbb6c840",
-                "reference": "e0f31fa473868b5db8c00994efb99e6efbb6c840",
+                "url": "https://api.github.com/repos/magento/magento-coding-standard/zipball/f5cf74fb1cdd7e9fc16b2b0a31c5a5336539505e",
+                "reference": "f5cf74fb1cdd7e9fc16b2b0a31c5a5336539505e",
                 "shasum": ""
             },
             "require": {
@@ -26140,9 +26140,9 @@
             "description": "A set of Magento specific PHP CodeSniffer rules.",
             "support": {
                 "issues": "https://github.com/magento/magento-coding-standard/issues",
-                "source": "https://github.com/magento/magento-coding-standard/tree/v34"
+                "source": "https://github.com/magento/magento-coding-standard/tree/v35"
             },
-            "time": "2024-09-06T17:21:26+00:00"
+            "time": "2024-10-08T16:38:49+00:00"
         },
         {
             "name": "magento/magento2-functional-testing-framework",
@@ -29407,5 +29407,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "plugin-api-version": "2.3.0"
 }

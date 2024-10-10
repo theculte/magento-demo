@@ -1,7 +1,9 @@
 <?php
 namespace Thierry\Contacts\Model;
+
 use Magento\Cron\Exception;
 use Magento\Framework\Model\AbstractModel;
+
 class Product extends \Magento\Catalog\Model\Product
 {
     /**
@@ -14,5 +16,4 @@ class Product extends \Magento\Catalog\Model\Product
     {
         return parent::getName().' SURCHARGE !!';
     }
-
 }

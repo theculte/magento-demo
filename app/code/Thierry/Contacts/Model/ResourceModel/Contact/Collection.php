@@ -7,7 +7,6 @@ use Magento\Framework\Model\ResourceModel\Db\Collection\AbstractCollection;
 /**
  * Contact Resource Model Collection
  *
- * @author      tverschu
  */
 class Collection extends AbstractCollection
 {

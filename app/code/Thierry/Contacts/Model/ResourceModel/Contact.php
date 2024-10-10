@@ -7,7 +7,6 @@ use Magento\Framework\Model\ResourceModel\Db\AbstractDb;
 /**
  * Contact Resource Model
  *
- * @author      Thierry
  */
 class Contact extends AbstractDb
 {

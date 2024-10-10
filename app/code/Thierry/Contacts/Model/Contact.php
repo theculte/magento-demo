@@ -8,7 +8,6 @@ use Magento\Framework\Model\AbstractModel;
 /**
  * Contact Model
  *
- * @author      tverschu
  */
 class Contact extends AbstractModel
 {
@@ -24,5 +23,4 @@ class Contact extends AbstractModel
     {
         $this->_init(\Thierry\Contacts\Model\ResourceModel\Contact::class);
     }
-    
 }

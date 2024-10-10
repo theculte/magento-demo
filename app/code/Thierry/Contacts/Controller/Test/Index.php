@@ -1,5 +1,6 @@
 <?php
 namespace Thierry\Contacts\Controller\Test;
+
 class Index extends \Magento\Framework\App\Action\Action
 {
     public function execute()
@@ -8,7 +9,7 @@ class Index extends \Magento\Framework\App\Action\Action
         $collection = $contactModel->getCollection()->addFieldToFilter('name', array('like'=> '%aul%'));
         foreach($collection as $contact) {
             var_dump($contact->getData());
-        }        
+        }
         die('test');*/
         $this->_view->loadLayout();
         $this->_view->renderLayout();

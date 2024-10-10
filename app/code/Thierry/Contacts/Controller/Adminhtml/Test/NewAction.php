@@ -1,5 +1,6 @@
 <?php
 namespace Thierry\Contacts\Controller\Adminhtml\Test;
+
 use Magento\Backend\App\Action;
 use Thierry\Contacts\Model\Contact as Contact;
 
@@ -17,7 +18,7 @@ class NewAction extends \Magento\Backend\App\Action
         $this->_view->renderLayout();
 
         $contactDatas = $this->getRequest()->getParam('contact');
-        if(is_array($contactDatas)) {
+        if (is_array($contactDatas)) {
             $contact = $this->_objectManager->create(Contact::class);
             $contact->setData($contactDatas)->save();
             $resultRedirect = $this->resultRedirectFactory->create();

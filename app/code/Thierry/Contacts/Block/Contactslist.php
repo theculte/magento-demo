@@ -1,5 +1,6 @@
 <?php
 namespace Thierry\Contacts\Block;
+
 use Magento\Framework\View\Element\Template;
 
 class Contactslist extends \Magento\Framework\View\Element\Template

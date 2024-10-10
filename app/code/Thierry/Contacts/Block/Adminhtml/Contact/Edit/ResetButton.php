@@ -3,9 +3,6 @@ namespace Thierry\Contacts\Block\Adminhtml\Contact\Edit;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 
-/**
- * Class ResetButton
- */
 class ResetButton extends GenericButton implements ButtonProviderInterface
 {
     /**

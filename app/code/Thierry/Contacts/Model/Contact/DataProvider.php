@@ -1,6 +1,8 @@
 <?php
 namespace Thierry\Contacts\Model\Contact;
+
 use Thierry\Contacts\Model\ResourceModel\Contact\CollectionFactory;
+
 class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
 {
     /**
@@ -30,7 +32,7 @@ class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
         }
 
         $items = $this->collection->getItems();
-        $this->data = array();
+        $this->data = [];
         /** @var Contact $contact */
         foreach ($items as $contact) {
             // notre fieldset s'apelle "contact" d'ou ce tableau pour que magento puisse retrouver ses datas :
@@ -39,6 +41,5 @@ class DataProvider extends \Magento\Ui\DataProvider\AbstractDataProvider
 
 
         return $this->data;
-
     }
 }

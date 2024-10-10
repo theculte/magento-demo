@@ -51,7 +51,7 @@ class UpgradeSchema implements UpgradeSchemaInterface
     
                 $setup->getConnection()->createTable($table);
             }
-        } else if (version_compare($context->getVersion(), '0.3.0', '<')) {
+        } elseif (version_compare($context->getVersion(), '0.3.0', '<')) {
 
             $tableName = $setup->getTable('thierry_contacts');
             $setup->getConnection()->addColumn($tableName, 'comment', [
@@ -62,14 +62,14 @@ class UpgradeSchema implements UpgradeSchemaInterface
                 'default' => '0',
                 'comment' => 'Comment'
             ]);
-        } else  if (version_compare($context->getVersion(), '0.4.0', '<')) {
+        } elseif (version_compare($context->getVersion(), '0.4.0', '<')) {
 
             /**
              * Add full text index to our table department
              */
 
             $tableName = $setup->getTable('thierry_contacts');
-            $fullTextIntex = array('name','email'); // Column with fulltext index, you can put multiple fields
+            $fullTextIntex = ['name','email']; // Column with fulltext index, you can put multiple fields
             $setup->getConnection()->addIndex(
                 $tableName,
                 $setup->getIdxName($tableName, $fullTextIntex, \Magento\Framework\DB\Adapter\AdapterInterface::INDEX_TYPE_FULLTEXT),

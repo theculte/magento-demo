@@ -3,9 +3,6 @@ namespace Thierry\Contacts\Block\Adminhtml\Contact\Edit;
 
 use Magento\Framework\View\Element\UiComponent\Control\ButtonProviderInterface;
 
-/**
- * Class SaveButton
- */
 class SaveButton extends GenericButton implements ButtonProviderInterface
 {
     /**

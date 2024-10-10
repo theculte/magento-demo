@@ -1,5 +1,5 @@
 <?php
-$contacts = $this->getContacts();
+$contacts = $block->getContacts();
 ?>
 <div id="contactslist">
     <table>
@@ -9,8 +9,8 @@ $contacts = $this->getContacts();
         </tr>
         <?php foreach ($contacts as $contact): ?>
             <tr>
-                <td><?php echo $contact->getName(); ?></td>
-                <td><?php echo $contact->getEmail(); ?></td>
+                <td><?= $contact->getName(); ?></td>
+                <td><?= $contact->getEmail(); ?></td>
             </tr>
         <?php endforeach; ?>
         <tr>

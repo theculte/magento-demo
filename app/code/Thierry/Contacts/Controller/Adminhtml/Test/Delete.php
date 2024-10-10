@@ -1,5 +1,6 @@
 <?php
 namespace Thierry\Contacts\Controller\Adminhtml\Test;
+
 use Thierry\Contacts\Model\Contact as Contact;
 use Magento\Backend\App\Action;
 
@@ -12,18 +13,18 @@ class Delete extends \Magento\Backend\App\Action
         if (!($contact = $this->_objectManager->create(Contact::class)->load($id))) {
             $this->messageManager->addError(__('Unable to proceed. Please, try again.'));
             $resultRedirect = $this->resultRedirectFactory->create();
-            return $resultRedirect->setPath('*/*/index', array('_current' => true));
+            return $resultRedirect->setPath('*/*/index', ['_current' => true]);
         }
-        try{
+        try {
             $contact->delete();
             $this->messageManager->addSuccess(__('Your contact has been deleted !'));
         } catch (Exception $e) {
             $this->messageManager->addError(__('Error while trying to delete contact: '));
             $resultRedirect = $this->resultRedirectFactory->create();
-            return $resultRedirect->setPath('*/*/index', array('_current' => true));
+            return $resultRedirect->setPath('*/*/index', ['_current' => true]);
         }
 
         $resultRedirect = $this->resultRedirectFactory->create();
-        return $resultRedirect->setPath('*/*/index', array('_current' => true));
+        return $resultRedirect->setPath('*/*/index', ['_current' => true]);
     }
 }
