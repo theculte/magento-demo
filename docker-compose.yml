@@ -65,6 +65,16 @@ services:
             - "5000:5000"
         volumes:
             - .:/workspaces/magento-demo
+    varnish:
+        image: varnish:latest
+        ports:
+            - "6081:6081"
+        networks:
+            - magento-demo-network
+        depends_on:
+            - web
+        links:
+            - web
 
 # The volume that is used by the MySQL container
 volumes:

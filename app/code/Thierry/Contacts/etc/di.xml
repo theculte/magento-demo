@@ -37,6 +37,8 @@
     <preference for="Magento\Catalog\Helper\Data" type="Thierry\Contacts\Helper\Data" />
     <preference for="Magento\Checkout\Controller\Cart\Index" type="Thierry\Contacts\Controller\Cart\Index" />
     <preference for="Thierry\Contacts\Observer\TestObserver" type="Thierry\Contacts\Observer\SurchargeObserver" />
+    <preference for="Thierry\Contacts\Helper\Myhelper" type="Thierry\Contacts\Helper\Myhelpersurcharge" />
+
 
 
 </config>
